@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>Flexbox</title>
+
+        <style>
+            .container{
+                display: flex;
+                gap: 10px;
+                /*
+                flex-direction: row;
+                flex-wrap: wrap;
+                */
+                flex: 1 0 300px;
+                flex-flow: row nowrap;
+                justify-content: space-around;
+                align-items: center;
+                height: 100vh;
+                align-content: space-evenly;
+            }
+            .box{
+                background-color: #36bbe7;
+                padding: 20px;
+                flex-basis:  200px;
+            }
+            .box1{
+                height: 300px;
+                order: 2;
+                flex-grow: 1;
+                flex-shrink: 0;
+            }
+            .box2{
+                order: 3;
+
+            }
+            .box3{
+                order: 1;
+                align-self: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box box1">box1</div>
+            <div class="box box2">box2</div>
+            <div class="box box3">box3</div>
+    </body>
+</html>
