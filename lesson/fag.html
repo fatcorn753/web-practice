@@ -10,27 +10,41 @@
     </head>
 
     <body>
+        <header>
+            <p>ヘッダー</p>
+        </header>
         <main>
-            <header>
-                ヘッダー
-            </header>
-            <h1>よくある質問</h1> <!--プロパティ名:値--><!--text alignは横位置  style="text-align: center; font-size: 1.5em"-->
-            <p>よくある質問</p>   <!--style="color: blue"-->
-            <h2>一般的な質問</h2>
+        <h1>よくある質問</h1> <!--プロパティ名:値--><!--text alignは横位置  style="text-align: center; font-size: 1.5em"-->
+        <p class="center text-small">よくある質問に回答いたします
+        </p>   <!--style="color: blue"-->
+        <h2>一般的な質問</h2>
+
+        <div class="card">
             <h3>会員の種類を教えてください</h3>
             <p>会員の種類は次のようなものがあります</p>
             <ul>
-                <li>よくある質問</li>
-                <li>よくある質問</li>
+                <li>一般会員</li>
+                <li>プレミア会員</li>
             </ul>
-            <ol>
-                <li>よくある質問</li>
-                <li>よくある質問</li>
-            </ol>
-        </main>
-        <footer>
-            <p>&copy; 2026 fatcorn</p> <!--文字参照-->
+        </div>
+        <div class="card">
+            <h3>これも教えてください</h3>
+            <p>これもこうです</p>
+        </div>
+        <h2>技術的な質問</h2>
 
+        <div class="center">
+            <p>ご質問はこちらへ</p>
+        </div>
+
+        <ol>
+            <li>よくある質問</li>
+            <li>よくある質問</li>
+        </ol>
+
+        </main>
+        <footer class="center">
+            <p>&copy; 2026 fatcorn</p> <!--文字参照-->
             <p>HTMLタグとは&lt;p&gt;のようなものです</p> <!--<p>を表示させるため-->
         </footer>
 
