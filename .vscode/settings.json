@@ -1,0 +1,36 @@
+{
+  // ===== 候補ポップアップを出さない =====
+  "editor.quickSuggestions": { "other": false, "comments": false, "strings": false },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.wordBasedSuggestions": "off",
+  "editor.parameterHints.enabled": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.tabCompletion": "off",
+  "editor.snippetSuggestions": "none",
+  "editor.inlineSuggest.enabled": false,
+
+  // ===== Emmet（! や div>ul>li*3 の展開）を無効化 =====
+  "emmet.showExpandedAbbreviation": "never",
+  "emmet.triggerExpansionOnTab": false,
+  "emmet.showSuggestionsAsSnippets": false,
+
+  // ===== 勝手に挿入される系を無効化（ここが一番効く）=====
+  "html.autoClosingTags": false,
+  "javascript.autoClosingTags": false,
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingQuotes": "never",
+
+  // ===== 自動整形を無効化（崩れに自分で気づくため）=====
+  "editor.formatOnSave": false,
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": false,
+
+  // ===== Copilot（入っていなければ無視される）=====
+  "github.copilot.enable": { "*": false },
+
+  // ===== 学習に効く表示設定（これは残す）=====
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [100],
+  "files.trimTrailingWhitespace": true
+}
