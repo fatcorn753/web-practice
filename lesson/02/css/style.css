@@ -1,0 +1,5 @@
+h1 {
+    color: rgba(255, 255, 255, .8); /* #ffffff 16進数  a(不透明度)*/
+    /*color: #0f0f でも不透明度をf表せる */
+    background-color: #001122; /* #0f0でも行ける */
+}
